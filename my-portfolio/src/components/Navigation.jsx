@@ -21,8 +21,8 @@ export default function Navigation() {
                     <div className="nav-links">
                         <a href="#about">About</a>
                         <a href="#skills">Skills</a>
-                        <a href="#projects">Project</a>
-                        <a href="#contact">Connect</a>
+                        <a href="#projects">Projects</a>
+                        <a href="#contact">Contact Me</a>
                     </div>
                     <button 
                         className={`hamburger ${isMenuOpen ? 'active' : ''}`} 
@@ -40,7 +40,7 @@ export default function Navigation() {
                 <a href="#about" className="menu-link" onClick={closeMenu}>About</a>
                 <a href="#skills" className="menu-link" onClick={closeMenu}>Skills</a>
                 <a href="#projects" className="menu-link" onClick={closeMenu}>Project</a>
-                <a href="#contact" className="menu-link" onClick={closeMenu}>Connect</a>
+                <a href="#contact" className="menu-link" onClick={closeMenu}>Contact Me</a>
             </div>
         </>
     );
