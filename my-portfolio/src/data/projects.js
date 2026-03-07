@@ -16,7 +16,7 @@ const projects = [
         {
             title          : "SQL Data Warehouse & ETL Pipeline",
             description    : "Designed and implemented a SQL-based data warehouse on MS SQL Server, building ETL pipelines to integrate and transform structured data for analysis. Created optimized schema structures and reporting datasets to support analytical queries and dashboards.",
-            techStack      : ['Python', 'Scikit-learn', 'Machine Learning', 'Data Preprocessing', 'SMOTE', 'Hyperparameter Tuning'],
+            techStack      : ['SQL'],
             githubLink     : "https://github.com/im-AnirudhBetrabet/sql-datawarehouse-project.git",
             staggerClass   : "stagger-3"
         },

@@ -17,7 +17,7 @@ export default function Navigation() {
         <>
             <nav>
                 <div className="nav-container">
-                    <a href="#" className="logo">Anirudh.</a>
+                    <a href="#" className="logo">Anirudh</a>
                     <div className="nav-links">
                         <a href="#about">About</a>
                         <a href="#skills">Skills</a>
@@ -39,7 +39,7 @@ export default function Navigation() {
             <div className={`mobile-menu ${isMenuOpen ? 'active' : ''}`} id="mobile-menu">
                 <a href="#about" className="menu-link" onClick={closeMenu}>About</a>
                 <a href="#skills" className="menu-link" onClick={closeMenu}>Skills</a>
-                <a href="#projects" className="menu-link" onClick={closeMenu}>Project</a>
+                <a href="#projects" className="menu-link" onClick={closeMenu}>Projects</a>
                 <a href="#contact" className="menu-link" onClick={closeMenu}>Contact Me</a>
             </div>
         </>
