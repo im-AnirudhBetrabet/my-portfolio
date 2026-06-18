@@ -16,7 +16,7 @@ export default function Hero() {
                 
                 <div className="hero-buttons">
                     <a href="#contact" className="hero-btn btn-primary">Get In Touch</a>
-                    <a href="https://drive.google.com/file/d/1pSjVe_pulk--2K0gtn1UmE7Rr4pI7j48/view?usp=drive_link" target='_blank' className="hero-btn btn-secondary">View Resume</a>
+                    <a href="https://drive.google.com/file/d/1P_ooozQGbY4kKxTdpvNMRV-N5xYIS9Ok/view?usp=sharing" target='_blank' className="hero-btn btn-secondary">View Resume</a>
                     <a href="#projects" className="hero-btn btn-outline">View My Work</a>
                 </div>
             </div>
