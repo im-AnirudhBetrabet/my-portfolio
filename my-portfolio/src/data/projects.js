@@ -1,11 +1,20 @@
 const projects = [
+    {
+            title       : "StoxCircle",
+            description : "Architected and developed StoxCircle, a full-stack pooled investing platform with FastAPI, React, and Supabase, implementing cohort management, allocation workflows, portfolio analytics, transaction ledgers, and P&L tracking.",
+            techStack   : ["React", "FastAPI", "Supabase"],
+            githubLink  : "https://github.com/im-AnirudhBetrabet/StoxCircle.git",
+            readMeLink  : "https://raw.githubusercontent.com/im-AnirudhBetrabet/StoxCircle/refs/heads/main/README.md",
+            liveLink    : "https://stoxcircle.in/",
+            staggerClass: "stagger-1"
+        },
         {
             title       : "Regime-Aware Financial Time-Series ML System",
             description : "Developed a regime-aware ML framework for non-stationary time-series classification. Implemented leakage-safe walk-forward validation, engineered trend and volatility regime features, and compared Random Forest, XGBoost, and ensemble models. Evaluated cross-year signal stability and diagnosed distribution shift using a strict 2025 holdout dataset.",
             techStack   : ["XGBoost", "Scikit-learn", "Pandas", "Numpy"],
             githubLink  : "https://github.com/im-AnirudhBetrabet/stock_vitals-ml.git",
             readMeLink  : "https://raw.githubusercontent.com/im-AnirudhBetrabet/stock_vitals-ml/refs/heads/main/README.md",
-            staggerClass: "stagger-1"
+            staggerClass: "stagger-2"
         },
         {
             title       : "Diabetes Risk Prediction Model",
@@ -13,7 +22,7 @@ const projects = [
             techStack   : ['Python', 'Scikit-learn', 'Machine Learning', 'Data Preprocessing', 'SMOTE', 'Hyperparameter Tuning'],
             githubLink  : "https://github.com/im-AnirudhBetrabet/Diabetes-Prediction.git",
             readMeLink  : "",
-            staggerClass: "stagger-2"
+            staggerClass: "stagger-3"
         },
         {
             title       : "SQL Data Warehouse & ETL Pipeline",
